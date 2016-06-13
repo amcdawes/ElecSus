@@ -8,6 +8,17 @@ of thermal alkali metal vapour cells. The program also includes fitting
 routines which allow experimental parameters to be extracted from 
 experimental spectroscopic data.
 
+An alternative GUI is provided by this fork. 
+
+2D-Plot:
+[![Screenshot](https://github.com/matwid/ElecSus/tree/master/elecsus/images/ubuntu_2d_cesium.png)](#features)
+
+3D: Poincare Sphere:
+[![Screenshot](https://github.com/matwid/ElecSus/tree/master/elecsus/images/ubuntu_3d_sodium.png)](#features)
+
+1D: Single Spectrum:
+[![Screenshot](https://github.com/matwid/ElecSus/tree/master/elecsus/images/windows7_cesium_ix.png)](#features)
+
 --------------------
 New in version 2.0
 --------------------
