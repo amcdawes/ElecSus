@@ -11,13 +11,13 @@ experimental spectroscopic data.
 An alternative GUI is provided by this fork. 
 
 2D-Plot:
-[![Screenshot](https://github.com/matwid/ElecSus/tree/master/elecsus/images/ubuntu_2d_cesium.png)](#features)
+![Screenshot](https://github.com/matwid/ElecSus/tree/master/elecsus/images/ubuntu_2d_cesium.png)
 
 3D: Poincare Sphere:
-[![Screenshot](https://github.com/matwid/ElecSus/tree/master/elecsus/images/ubuntu_3d_sodium.png)](#features)
+[![Screenshot](https://github.com/matwid/ElecSus/tree/master/elecsus/images/ubuntu_3d_sodium.png)]
 
 1D: Single Spectrum:
-[![Screenshot](https://github.com/matwid/ElecSus/tree/master/elecsus/images/windows7_cesium_ix.png)](#features)
+[![Screenshot](https://github.com/matwid/ElecSus/tree/master/elecsus/images/windows7_cesium_ix.png)]
 
 --------------------
 New in version 2.0
