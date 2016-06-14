@@ -22,7 +22,7 @@ An alternative GUI is provided by this fork.
 --------------------
 Installation notes for gui_mod:
 --------------------
-1. Clone or download all files
+Clone or download all files
 
 Windows:
 	use one of these package manager 
@@ -32,15 +32,14 @@ Windows:
 	[1] open bat file in an text editor and place your username
 
 ARCH LINUX:
-	a) sudo pacman -S wxpython2.8 python-numpy python-matplotlib python-scipy vtk python2-traitsui python2-pyface python2-apptools python2-envisage python2-configobj python2-setuptools
-	b) yaourt -S python2-chaco
-	c) pip install mayavi2
-	d) There is no package for kiwisolver neither in official repo nor in aur:
-		d.1 download it here:
-			https://pypi.python.org/pypi/kiwisolver/0.1.2
-		d.2 unpack and install it via command (open shell in 
-			unpacked folder in dolphin (Shift+F4)):
-		d.3 sudo python2 setup.py install
+	1.	 sudo pacman -S wxpython2.8 python-numpy python-matplotlib python-scipy vtk python2-traitsui python2-pyface python2-apptools python2-envisage python2-configobj python2-setuptools
+	2.    yaourt -S python2-chaco
+	3.	pip install mayavi2
+	4. 	There is no package for kiwisolver neither in official repo nor in aur:
+		4.1 	download it here:
+				https://pypi.python.org/pypi/kiwisolver/0.1.2
+		4.2 	unpack and install it via command (open shell in unpacked folder in dolphin (Shift+F4)):
+		4.3 	sudo python2 setup.py install
 
 --------------------
 How to run gui
