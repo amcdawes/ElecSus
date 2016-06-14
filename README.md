@@ -20,6 +20,39 @@ An alternative GUI is provided by this fork.
 ![Screenshot](https://github.com/matwid/ElecSus/tree/master/elecsus/images/windows7_cesium_ix.png)
 
 --------------------
+Installation notes for gui_mod:
+--------------------
+1. Clone or download all files
+
+Windows:
+use one of these package manager 
+<a href="https://www.enthought.com/products/canopy/">Canopy</a>
+<a href="https://www.continuum.io/downloads">Anaconda</a>
+and install missing packages (you can find them by running the programm /elecsus/elecsus_gui_mod.py or on windows by using run_gui_mod.bat [1]) 
+
+[1] open bat file in an text editor and place your username
+
+ARCH LINUX:
+sudo pacman -S wxpython2.8 python-numpy python-matplotlib python-scipy vtk python2-traitsui python2-pyface python2-apptools python2-envisage python2-configobj python2-setuptools
+yaourt -S python2-chaco
+pip install mayavi2
+
+There is no package for kiwisolver neither in official repo nor in aur, so download it here:
+https://pypi.python.org/pypi/kiwisolver/0.1.2
+unpack and install it via command (open shell in unpacked folder in dolphin (Shift+F4)):
+sudo python2 setup.py install
+
+--------------------
+How to run gui
+--------------------
+
+simple run in Linux: ./elecsus_gui_mod.py
+(Ubuntu) maybe, you will need a 'chmod 755 gui.py' before 
+(Arch)   ETS_TOOLKIT=wx ipython2 then run elecsus_gui_mod.py
+(Win7)   use run_gui_mod.bat ( [1])
+[1] open bat file in an text editor and place your username
+
+--------------------
 New in version 2.0
 --------------------
 
